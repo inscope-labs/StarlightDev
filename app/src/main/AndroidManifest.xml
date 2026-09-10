@@ -22,11 +22,6 @@
             </intent-filter>
         </activity>
 
-        <activity-alias
-            android:name="com.starlight.MainActivity"
-            android:targetActivity=".MainActivity"
-            android:exported="true" />
-
         <service
             android:name=".AutoService"
             android:exported="true"

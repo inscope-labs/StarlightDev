@@ -1,6 +1,0 @@
-{
-  "name": "Starlight",
-  "description": "Minimal Android AccessibilityService and WebSocket RPC endpoint for UI automation",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
