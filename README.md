@@ -1,11 +1,15 @@
-<div align="center">
+# Starlight
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Minimal Android AccessibilityService + WebSocket RPC endpoint for the vertical-slice validation.
 
-  <h1>Built with AI Studio</h2>
+## Build & install
+1. Open in Android Studio or build with Gradle.
+2. Install on device.
+3. Enable the Accessibility Service in system settings.
+4. RpcServer listens on TCP 8765 (ensure Tailscale / network reachability from the OCI VM).
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Supported methods only
+- `session.open`
+- `ui.perform` (action = "tap", selector = "text=...")
+- `ui.read` (selector = "text=...")
+- `session.close`

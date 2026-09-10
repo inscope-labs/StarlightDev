@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center 4-point Starlight Star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,24 Q54,54 24,54 Q54,54 54,84 Q54,54 84,54 Q54,54 54,24 Z" />
+    <!-- Inner diamond glow -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M54,38 L62,54 L54,70 L46,54 Z" />
+    <!-- Secondary small sparkle top right -->
+    <path
+        android:fillColor="#FFECB3"
+        android:pathData="M78,30 Q78,38 70,38 Q78,38 78,46 Q78,38 86,38 Q78,38 78,30 Z" />
+    <!-- Secondary small sparkle bottom left -->
+    <path
+        android:fillColor="#80D8FF"
+        android:pathData="M32,70 Q32,76 26,76 Q32,76 32,82 Q32,76 38,76 Q32,76 32,70 Z" />
+</vector>

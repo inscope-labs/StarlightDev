@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Starlight</string>
+    <string name="accessibility_service_description">Starlight Accessibility Service – required for UI automation</string>
+</resources>
